@@ -1,0 +1,97 @@
+/** @format */
+body {
+	font-family: Arial;
+	margin: 0%;
+}
+/** header  **/
+header {
+	margin: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.Imatge1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+div.Imatge1 p {
+	margin-left: 5%;
+	font-size: 30px;
+}
+header pre {
+	font-weight: bolder;
+	font-size: 14px;
+	font-family: Verdana;
+	text-transform: uppercase;
+}
+div.iniciarS input {
+	background-color: rgb(201, 55, 55);
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/** section 1 **/
+section.inici h2 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1%;
+}
+section.inici pre {
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+}
+/**section 2**/
+div.principal {
+	border-top: 4px red dotted;
+	margin: 5% 15%;
+}
+p.u {
+	font-size: 12px;
+}
+div.flex1 p.red {
+	font-size: 25px;
+	color: red;
+}
+
+div.felx1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+/**footer**/
+div.part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ol.agrupar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 2%;
+}
+ol li {
+	list-style-type: circle;
+	line-height: 2em;
+}
+div.agrupas {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(77, 77, 77);
+	color: white;
+}
+div.icones img {
+	height: 20px;
+	width: 20px;
+	margin-top: 1%;
+}

@@ -1,0 +1,148 @@
+/** @format */
+/** body **/
+body {
+	font-family: Arial;
+	margin: 0%;
+}
+/** header  **/
+header {
+	margin: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.Imatge1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+div.Imatge1 p {
+	margin-left: 5%;
+	font-size: 30px;
+}
+header pre {
+	font-weight: bolder;
+	font-size: 14px;
+	font-family: Verdana;
+	text-transform: uppercase;
+}
+div.iniciarS input {
+	background-color: rgb(201, 55, 55);
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/** **/
+/** **/
+/** **/
+/** **/
+/** **/
+/** section 1 **/
+section.oscarsclub {
+	margin: 2%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+/** Section 2 **/
+section.funcionament h2 {
+	margin: 2%;
+	text-align: center;
+}
+div.imatgesF {
+	margin: 3%;
+	text-align: center;
+}
+div.imatgesF img {
+	height: 200px;
+	width: 250px;
+}
+div.contenidorimg {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+/** section 3 **/
+section.unirse {
+	margin-bottom: 3%;
+}
+section.unirse h2 {
+	text-align: center;
+	font-weight: bolder;
+}
+div.abans {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	text-align: center;
+	justify-content: center;
+}
+
+div.info {
+	display: flex;
+	justify-content: center;
+}
+pre.Info {
+	text-align: justify;
+	font-size: 11px;
+	font-family: Georgia;
+}
+pre.Info a {
+	color: red;
+}
+div.registreB input {
+	background-color: rgb(201, 55, 55);
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/** section 4**/
+section.sepagina {
+	margin: 2%;
+}
+section.sepagina img {
+	height: 50px;
+	width: 50px;
+}
+div.img {
+	display: flex;
+	justify-content: center;
+}
+/** section footer **/
+div.part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ol.agrupar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 2%;
+}
+ol li {
+	list-style-type: circle;
+	line-height: 2em;
+}
+div.agrupas {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(77, 77, 77);
+	color: white;
+}
+div.icones img {
+	height: 20px;
+	width: 20px;
+	margin-top: 1%;
+}

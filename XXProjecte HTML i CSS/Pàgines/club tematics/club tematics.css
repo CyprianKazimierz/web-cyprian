@@ -1,0 +1,100 @@
+/** @format */
+body {
+	font-family: Arial;
+	margin: 0%;
+}
+/** header  **/
+header {
+	margin: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.Imatge1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+div.Imatge1 p {
+	margin-left: 5%;
+	font-size: 30px;
+}
+header pre {
+	font-weight: bolder;
+	font-size: 14px;
+	font-family: Verdana;
+	text-transform: uppercase;
+}
+div.iniciarS input {
+	background-color: rgb(201, 55, 55);
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+section.clubs h2 {
+	text-align: center;
+	font-family: "Noto Serif", serif, arial;
+}
+div.FLEX figure figcaption div.ajuntar {
+	display: flex;
+	align-items: center;
+}
+div.FLEX figure img {
+	width: 500px;
+	height: auto;
+}
+div.FLEX figure figcaption div.ajuntar p {
+	font-weight: bolder;
+	color: red;
+	margin-right: 1%;
+	size: 18px;
+}
+div.FLEX figure figcaption a:link {
+	text-decoration: none;
+	color: red;
+}
+div.contenidorFLEX {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(185, 177, 177);
+}
+:-webkit-full-screen {
+	size: 60%;
+}
+/** footer **/
+div.part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ol.agrupar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 2%;
+}
+ol li {
+	list-style-type: circle;
+	line-height: 2em;
+}
+div.agrupas {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(77, 77, 77);
+	color: white;
+}
+div.icones img {
+	height: 20px;
+	width: 20px;
+	margin-top: 1%;
+}
